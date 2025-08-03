@@ -1,0 +1,13 @@
+pytz
+numpy
+pandas
+tabulate
+holidays
+yfinance
+requests
+streamlit
+matplotlib
+python-dotenv
+pytickersymbols
+streamlit-extras
+pandas_market_calendars

@@ -1,0 +1,47 @@
+[theme]
+base = "dark"
+#font =
+primaryColor = "#F63366"
+#backgroundColor = "black"
+
+[global]
+disableWidgetStateDuplicationWarning = true
+showWarningOnDirectExecution = false
+
+[logger]
+level = "error"
+#datetimeFormat = ""
+messageFormat = "%(asctime)s %(message)s"
+
+[client]
+showErrorDetails = "none"
+toolbarMode = "auto"
+showSidebarNavigation = true
+
+[runner]
+magicEnabled = true
+fastReruns = true
+enforceSerializableSessionState = false
+enumCoercion = "nameAndValue"
+
+[server]
+# folderWatchList = ["."]
+fileWatcherType = "auto"
+headless = true
+showEmailPrompt = false
+runOnSave = true
+address = "127.0.0.1"
+port = 8501
+baseUrlPath = ""
+enableCORS = true
+# corsAllowedOrigins = ["*"]
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+enableWebsocketCompression = true
+enableStaticServing = true
+
+[browser]
+serverAddress = "localhost"
+serverPort = 8501
+gatherUsageStats = true
